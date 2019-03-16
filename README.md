@@ -13,15 +13,16 @@
     
     
  分享方法：
- 
- [[YJShareTool sharedInstance] shareLinkContentWithTitle:@"your title" description:@"your description" thumgImage:[UIImage imageNamed:@"your image"] linkUrl:@"your link url" currentVC:nil shareplatForm:SharePlatFormWXSpace shareResponse:^(ShareResponseCode responseCode, SharePlatFormType sharePlatFormType) {
+      
+      [[YJShareTool sharedInstance] shareLinkContentWithTitle:@"your title" description:@"your description" thumgImage:[UIImage imageNamed:@"your image"] linkUrl:@"your link url" currentVC:nil shareplatForm:SharePlatFormWXSpace shareResponse:^(ShareResponseCode responseCode, SharePlatFormType sharePlatFormType) {
         
     }];
     
  FAQ:
- 1.为毛不跳转：
- 在info.plist文件右键点击openAsSourceCode 然后复制下面添加
- <key>LSApplicationQueriesSchemes</key>
+     
+     1.为毛不跳转：
+     在info.plist文件右键点击openAsSourceCode 然后复制下面添加
+     <key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>wtloginmqq2</string>
 		<string>mqqopensdkapiV3</string>
