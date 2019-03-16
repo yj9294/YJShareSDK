@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038BA462223C90BA002C71C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BA461223C90BA002C71C3 /* AppDelegate.m */; };
+		038BA465223C90BA002C71C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BA464223C90BA002C71C3 /* ViewController.m */; };
+		038BA468223C90BA002C71C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038BA466223C90BA002C71C3 /* Main.storyboard */; };
+		038BA46A223C90BB002C71C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038BA469223C90BB002C71C3 /* Assets.xcassets */; };
+		038BA46D223C90BB002C71C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038BA46B223C90BB002C71C3 /* LaunchScreen.storyboard */; };
+		038BA470223C90BB002C71C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BA46F223C90BB002C71C3 /* main.m */; };
+		038BA482223CEB7E002C71C3 /* YJShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BA481223CEB7E002C71C3 /* YJShareTool.m */; };
+		038BA48A223CEBA3002C71C3 /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 038BA485223CEBA3002C71C3 /* TwitterShareExtensionUIResources.bundle */; };
+		038BA48B223CEBA3002C71C3 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 038BA486223CEBA3002C71C3 /* TwitterKitResources.bundle */; };
+		038BA48F223CEC57002C71C3 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038BA489223CEBA3002C71C3 /* TencentOpenAPI.framework */; };
+		038BA490223CEC66002C71C3 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038BA488223CEBA3002C71C3 /* TwitterCore.framework */; };
+		038BA491223CEC66002C71C3 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038BA487223CEBA3002C71C3 /* TwitterKit.framework */; };
+		28443B1E7DE30DA41244514A /* libPods-YJShareSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2DAFD800F416FE05644792 /* libPods-YJShareSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003339E58D7F8F6EE36EED61 /* Pods-YJShareSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShareSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJShareSDK/Pods-YJShareSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		038BA45D223C90BA002C71C3 /* YJShareSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJShareSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038BA460223C90BA002C71C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		038BA461223C90BA002C71C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		038BA463223C90BA002C71C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		038BA464223C90BA002C71C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		038BA467223C90BA002C71C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		038BA469223C90BB002C71C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		038BA46C223C90BB002C71C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		038BA46E223C90BB002C71C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038BA46F223C90BB002C71C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		038BA480223CEB7E002C71C3 /* YJShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJShareTool.h; sourceTree = "<group>"; };
+		038BA481223CEB7E002C71C3 /* YJShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJShareTool.m; sourceTree = "<group>"; };
+		038BA485223CEBA3002C71C3 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		038BA486223CEBA3002C71C3 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		038BA487223CEBA3002C71C3 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		038BA488223CEBA3002C71C3 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		038BA489223CEBA3002C71C3 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		740F1AD279B5ECB6B77250C5 /* Pods-YJShareSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShareSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJShareSDK/Pods-YJShareSDK.release.xcconfig"; sourceTree = "<group>"; };
+		9E2DAFD800F416FE05644792 /* libPods-YJShareSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJShareSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038BA45A223C90BA002C71C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038BA490223CEC66002C71C3 /* TwitterCore.framework in Frameworks */,
+				038BA491223CEC66002C71C3 /* TwitterKit.framework in Frameworks */,
+				038BA48F223CEC57002C71C3 /* TencentOpenAPI.framework in Frameworks */,
+				28443B1E7DE30DA41244514A /* libPods-YJShareSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038BA454223C90BA002C71C3 = {
+			isa = PBXGroup;
+			children = (
+				038BA45F223C90BA002C71C3 /* YJShareSDK */,
+				038BA45E223C90BA002C71C3 /* Products */,
+				9C924CAA8C01A09CC4930785 /* Pods */,
+				4EEDE8588B54DF16579D1835 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		038BA45E223C90BA002C71C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038BA45D223C90BA002C71C3 /* YJShareSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038BA45F223C90BA002C71C3 /* YJShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				038BA483223CEBA3002C71C3 /* Framework */,
+				038BA47F223CEB7E002C71C3 /* ShareTool */,
+				038BA460223C90BA002C71C3 /* AppDelegate.h */,
+				038BA461223C90BA002C71C3 /* AppDelegate.m */,
+				038BA463223C90BA002C71C3 /* ViewController.h */,
+				038BA464223C90BA002C71C3 /* ViewController.m */,
+				038BA466223C90BA002C71C3 /* Main.storyboard */,
+				038BA469223C90BB002C71C3 /* Assets.xcassets */,
+				038BA46B223C90BB002C71C3 /* LaunchScreen.storyboard */,
+				038BA46E223C90BB002C71C3 /* Info.plist */,
+				038BA46F223C90BB002C71C3 /* main.m */,
+			);
+			path = YJShareSDK;
+			sourceTree = "<group>";
+		};
+		038BA47F223CEB7E002C71C3 /* ShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				038BA480223CEB7E002C71C3 /* YJShareTool.h */,
+				038BA481223CEB7E002C71C3 /* YJShareTool.m */,
+			);
+			path = ShareTool;
+			sourceTree = "<group>";
+		};
+		038BA483223CEBA3002C71C3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				038BA484223CEBA3002C71C3 /* TwitterKit3.0 */,
+				038BA489223CEBA3002C71C3 /* TencentOpenAPI.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		038BA484223CEBA3002C71C3 /* TwitterKit3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				038BA485223CEBA3002C71C3 /* TwitterShareExtensionUIResources.bundle */,
+				038BA486223CEBA3002C71C3 /* TwitterKitResources.bundle */,
+				038BA487223CEBA3002C71C3 /* TwitterKit.framework */,
+				038BA488223CEBA3002C71C3 /* TwitterCore.framework */,
+			);
+			path = TwitterKit3.0;
+			sourceTree = "<group>";
+		};
+		4EEDE8588B54DF16579D1835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E2DAFD800F416FE05644792 /* libPods-YJShareSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C924CAA8C01A09CC4930785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				003339E58D7F8F6EE36EED61 /* Pods-YJShareSDK.debug.xcconfig */,
+				740F1AD279B5ECB6B77250C5 /* Pods-YJShareSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038BA45C223C90BA002C71C3 /* YJShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038BA473223C90BB002C71C3 /* Build configuration list for PBXNativeTarget "YJShareSDK" */;
+			buildPhases = (
+				289C8D1EEFC8636B32BAB7F4 /* [CP] Check Pods Manifest.lock */,
+				038BA459223C90BA002C71C3 /* Sources */,
+				038BA45A223C90BA002C71C3 /* Frameworks */,
+				038BA45B223C90BA002C71C3 /* Resources */,
+				C2B6D8E4576DEA27A31FE2BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJShareSDK;
+			productName = YJShareSDK;
+			productReference = 038BA45D223C90BA002C71C3 /* YJShareSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038BA455223C90BA002C71C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = nico;
+				TargetAttributes = {
+					038BA45C223C90BA002C71C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 038BA458223C90BA002C71C3 /* Build configuration list for PBXProject "YJShareSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 038BA454223C90BA002C71C3;
+			productRefGroup = 038BA45E223C90BA002C71C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038BA45C223C90BA002C71C3 /* YJShareSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038BA45B223C90BA002C71C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038BA46D223C90BB002C71C3 /* LaunchScreen.storyboard in Resources */,
+				038BA46A223C90BB002C71C3 /* Assets.xcassets in Resources */,
+				038BA468223C90BA002C71C3 /* Main.storyboard in Resources */,
+				038BA48A223CEBA3002C71C3 /* TwitterShareExtensionUIResources.bundle in Resources */,
+				038BA48B223CEBA3002C71C3 /* TwitterKitResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		289C8D1EEFC8636B32BAB7F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJShareSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B6D8E4576DEA27A31FE2BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YJShareSDK/Pods-YJShareSDK-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/WeiboSDK/libWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJShareSDK/Pods-YJShareSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038BA459223C90BA002C71C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038BA482223CEB7E002C71C3 /* YJShareTool.m in Sources */,
+				038BA465223C90BA002C71C3 /* ViewController.m in Sources */,
+				038BA470223C90BB002C71C3 /* main.m in Sources */,
+				038BA462223C90BA002C71C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		038BA466223C90BA002C71C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038BA467223C90BA002C71C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		038BA46B223C90BB002C71C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038BA46C223C90BB002C71C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		038BA471223C90BB002C71C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		038BA472223C90BB002C71C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		038BA474223C90BB002C71C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003339E58D7F8F6EE36EED61 /* Pods-YJShareSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCP5872BLQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YJShareSDK/Framework/TwitterKit3.0",
+					"$(PROJECT_DIR)/YJShareSDK/Framework",
+				);
+				INFOPLIST_FILE = YJShareSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.sharesdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		038BA475223C90BB002C71C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740F1AD279B5ECB6B77250C5 /* Pods-YJShareSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCP5872BLQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YJShareSDK/Framework/TwitterKit3.0",
+					"$(PROJECT_DIR)/YJShareSDK/Framework",
+				);
+				INFOPLIST_FILE = YJShareSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.sharesdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038BA458223C90BA002C71C3 /* Build configuration list for PBXProject "YJShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038BA471223C90BB002C71C3 /* Debug */,
+				038BA472223C90BB002C71C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038BA473223C90BB002C71C3 /* Build configuration list for PBXNativeTarget "YJShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038BA474223C90BB002C71C3 /* Debug */,
+				038BA475223C90BB002C71C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 038BA455223C90BA002C71C3 /* Project object */;
+}
